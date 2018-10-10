@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/montserrat</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
@@ -14,8 +15,8 @@
 
 
     <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimaryDark">@color/colorAccent</item>
-        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:colorPrimaryDark">@color/dark_color</item>
+        <item name="android:windowBackground">@drawable/guide_screen_lux_xml</item>
     </style>
 
     <style name="AppThemeActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
